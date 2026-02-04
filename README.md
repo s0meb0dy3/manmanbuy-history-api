@@ -24,7 +24,30 @@ pip install -r requirements.txt
 python examples/sample_client.py
 ```
 
-3) 将示例程序中的占位值替换为真实值后再次运行：`Authorization` 与 `Cookie`。
+3) 将示例程序中的占位值替换为真实值后再次运行：`AUTHORIZATION` 与 `COOKIE`。
+
+   填写完成后应类似如下（以示例程序为准）：
+
+   ```python
+   authentication = "BasicAuth EXAMPLE_AUTH_VALUE"
+   cookie = "ASP.NET_SessionId=EXAMPLE_SESSION_ID; ..."
+   ```
+
+   **获取 `AUTHORIZATION` 与 `COOKIE`（截图示例）**
+
+   图片统一放在 `assets/screenshots/` 目录。
+
+   1) 登录慢慢买网站并进入商品查询页面。
+
+   ![登录并进入商品查询页面](assets/screenshots/image1.png)
+
+   2) 打开开发者工具，切到 Network，选择 Fetch/XHR，然后随便查询一个商品价格。
+
+   ![Network 中查看 Fetch/XHR 请求](assets/screenshots/image2.png)
+
+   3) 在请求列表中找到 `api.ashx`，在右侧详情里复制 `authorization` 与 `cookie`，填入示例程序。
+
+   ![在 api.ashx 中复制 authorization 与 cookie](assets/screenshots/image3.png)
 
 ## 示例程序说明
 
@@ -50,7 +73,7 @@ python examples/sample_client.py
 ## 重要提醒
 
 - 本仓库不包含任何真实凭据。
-- 不要将 `Authorization` 或 `Cookie` 提交到 GitHub。
+- 不要将 `AUTHORIZATION` 或 `COOKIE` 提交到 GitHub。
 - 请遵守目标网站的使用条款与访问频率限制。
 
 ## 许可证
