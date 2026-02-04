@@ -1,0 +1,6 @@
+{
+  "method": "getHistoryTrend",
+  "key": "https://item.jd.com/1234567890.html",
+  "t": "1730000000000",
+  "token": "PLACEHOLDER_TOKEN"
+}

@@ -1,0 +1,12 @@
+{
+  "msg": "",
+  "code": 0,
+  "data": {
+    "haveTrend": 1,
+    "siteName": "京东商城",
+    "currentPrice": 6499.0,
+    "spName": "示例商品名称",
+    "datePrice": "[时间戳,价格,\"备注\"],..."
+  },
+  "count": 0
+}
