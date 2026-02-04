@@ -1,6 +1,6 @@
-# price-history-api-share
+# manmanbuy-history-api
 
-一个可分享的最小文档与示例集合，用于说明“获取商品历史价格首条时间戳”的 API 调用方式。
+慢慢买这个网站获取历史价格的这个 API
 
 ## 包含内容
 
